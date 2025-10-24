@@ -11,7 +11,7 @@ export class LoginPage extends BasePage {
   }
 
   async goto() {
-    
+    // need to make sure it uses baseurl from config
   }
 
   async login(email: string, password: string) {
